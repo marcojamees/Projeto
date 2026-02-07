@@ -40,7 +40,7 @@ const Contact = () => {
 
               <motion.a
                 whileHover={{ scale: 1.1, boxShadow: "var(--shadow-glow)" }}
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/seu-perfil"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-6 py-3 bg-primary/20 rounded-full smooth-transition"
@@ -51,7 +51,7 @@ const Contact = () => {
 
               <motion.a
                 whileHover={{ scale: 1.1, boxShadow: "var(--shadow-glow)" }}
-                href="https://github.com"
+                href="https://github.com/seu-usuario"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-6 py-3 bg-primary/20 rounded-full smooth-transition"
@@ -61,14 +61,15 @@ const Contact = () => {
               </motion.a>
             </div>
 
-            <motion.button
+            <motion.a
+              href="mailto:james@example.com"
               whileHover={{ scale: 1.05, boxShadow: "var(--shadow-glow)" }}
               whileTap={{ scale: 0.95 }}
               className="px-10 py-4 bg-primary text-primary-foreground rounded-full text-lg font-semibold flex items-center gap-3 mx-auto smooth-transition"
             >
               <Send size={20} />
               Enviar Mensagem
-            </motion.button>
+            </motion.a>
           </motion.div>
 
           <motion.p
@@ -77,7 +78,7 @@ const Contact = () => {
             transition={{ delay: 0.6 }}
             className="text-muted-foreground"
           >
-            © 2024 James Marco Souza Pereira. Todos os direitos reservados.
+            © 2025 James Marco Souza Pereira. Todos os direitos reservados.
           </motion.p>
         </motion.div>
       </div>

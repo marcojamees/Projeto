@@ -95,4 +95,11 @@ All colors MUST be HSL.
   .smooth-transition {
     transition: var(--transition-smooth);
   }
+
+  /* Esconde custom cursor em dispositivos touch */
+  @media (pointer: coarse) {
+    .hide-on-touch {
+      display: none !important;
+    }
+  }
 }
