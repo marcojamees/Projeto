@@ -31,16 +31,16 @@ const Contact = () => {
             <div className="flex flex-col md:flex-row gap-6 justify-center items-center mb-8">
               <motion.a
                 whileHover={{ scale: 1.1, boxShadow: "var(--shadow-glow)" }}
-                href="mailto:james@example.com"
+                href="mailto:james.marco118@gmail.com"
                 className="flex items-center gap-3 px-6 py-3 bg-primary/20 rounded-full smooth-transition"
               >
                 <Mail className="text-primary" />
-                <span>james@example.com</span>
+                <span>james.marco118@gmail.com</span>
               </motion.a>
 
               <motion.a
                 whileHover={{ scale: 1.1, boxShadow: "var(--shadow-glow)" }}
-                href="https://linkedin.com/in/seu-perfil"
+                href="https://www.linkedin.com/in/marcojames/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-6 py-3 bg-primary/20 rounded-full smooth-transition"
@@ -51,7 +51,7 @@ const Contact = () => {
 
               <motion.a
                 whileHover={{ scale: 1.1, boxShadow: "var(--shadow-glow)" }}
-                href="https://github.com/seu-usuario"
+                href="https://github.com/marcojamees"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-6 py-3 bg-primary/20 rounded-full smooth-transition"
@@ -62,7 +62,7 @@ const Contact = () => {
             </div>
 
             <motion.a
-              href="mailto:james@example.com"
+              href="mailto:james.marco118@gmail.com"
               whileHover={{ scale: 1.05, boxShadow: "var(--shadow-glow)" }}
               whileTap={{ scale: 0.95 }}
               className="px-10 py-4 bg-primary text-primary-foreground rounded-full text-lg font-semibold flex items-center gap-3 mx-auto smooth-transition"
