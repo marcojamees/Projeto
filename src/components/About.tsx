@@ -25,9 +25,8 @@ const About = () => {
               transition={{ delay: 0.2 }}
               className="text-lg text-muted-foreground leading-relaxed mb-6"
             >
-              Sou um Analista de Dados apaixonado por transformar dados complexos em insights
-              acionáveis. Com experiência em análise estatística, visualização de dados e
-              machine learning, ajudo empresas a tomar decisões baseadas em dados.
+              Sou Analista de Dados focado em transformar dados brutos em insights estratégicos que apoiam decisões de negócio. Tenho experiência na coleta, processamento e análise de grandes volumes de dados, utilizando ferramentas analíticas e linguagens de programação para gerar informações que impulsionam crescimento, eficiência e performance organizacional.
+              Atuo na construção de dashboards e relatórios dinâmicos que oferecem visibilidade clara dos principais indicadores de desempenho, sempre com foco em gerar impacto real e acionável para as áreas de negócio.
             </motion.p>
 
             <motion.p
@@ -36,9 +35,8 @@ const About = () => {
               transition={{ delay: 0.4 }}
               className="text-lg text-muted-foreground leading-relaxed"
             >
-              Minha abordagem combina rigor analítico com criatividade para descobrir padrões
-              ocultos e criar soluções inovadoras. Estou sempre em busca de novos desafios
-              que me permitam crescer profissionalmente e contribuir para o sucesso dos projetos.
+             Atuo na estruturação de pipelines analíticos e modelagem de dados com foco em escalabilidade e confiabilidade. Trabalho na organização das camadas de dados, padronização de métricas e definição clara de regras de negócio, garantindo uma fonte única de verdade para a tomada de decisão.
+             Aplico boas práticas de transformação, versionamento, documentação e testes de qualidade, conectando engenharia e negócio para sustentar análises e dashboards sobre uma base consistente e performática.
             </motion.p>
           </div>
         </motion.div>

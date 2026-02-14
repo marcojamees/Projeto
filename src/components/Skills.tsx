@@ -1,15 +1,19 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Database, BarChart3, Brain, Code2, TrendingUp, FileSpreadsheet } from "lucide-react";
+import { Database, BarChart3, Brain, Code2, Layers, FileSpreadsheet, GitBranch, Warehouse, Workflow, ShieldCheck, TrendingUp } from "lucide-react";
 
 const skills = [
-  { name: "SQL & Databases", icon: Database, level: 95 },
-  { name: "Python & R", icon: Code2, level: 90 },
-  { name: "Data Visualization", icon: BarChart3, level: 92 },
-  { name: "Machine Learning", icon: Brain, level: 85 },
-  { name: "Statistical Analysis", icon: TrendingUp, level: 88 },
-  { name: "Excel & Spreadsheets", icon: FileSpreadsheet, level: 93 },
+  { name: "SQL & Data Modeling", icon: Database, level: 95 },
+  { name: "Semantic Layer (Power BI & Looker)", icon: Layers, level: 93 },
+  { name: "Data Warehousing (BigQuery)", icon: Warehouse, level: 92 },
+  { name: "dbt & Data Transformation", icon: GitBranch, level: 90 },
+  { name: "ETL / ELT Pipelines", icon: Workflow, level: 89 },
+  { name: "Data Visualization & Storytelling", icon: BarChart3, level: 88 },
+ // { name: "Data Quality & Testing", icon: ShieldCheck, level: 87 },
+  { name: "Python for Data Analysis", icon: Code2, level: 85 },
+  { name: "Statistical Analysis", icon: TrendingUp, level: 83 },
+  { name: "Excel & Business Analysis", icon: FileSpreadsheet, level: 80 }
 ];
 
 const Skills = () => {
